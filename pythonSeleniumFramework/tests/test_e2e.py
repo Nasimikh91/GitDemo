@@ -35,9 +35,6 @@ class TestE2E(BaseClass):
         trade.get_order_confirmation()
         sleep(2)
         login.get_logout_button().click()
-        print("Hey hey hey")
-        print("Our new changes that are going to git")
-        ##############################################
 
     @pytest.fixture(params=TestData.test_data)
     def data_load(self, request):
