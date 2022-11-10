@@ -37,7 +37,9 @@ class TestE2E(BaseClass):
         login.get_logout_button().click()
         print("Rayhona's changes1")
         print("Rayhona's changes2")
-
+        print("Davlatbek's changes1")
+        print("Davlatbek's changes2")
+        print("Davlatbek's changes3")
 
     @pytest.fixture(params=TestData.test_data)
     def data_load(self, request):
