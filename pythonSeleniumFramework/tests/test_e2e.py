@@ -41,6 +41,10 @@ class TestE2E(BaseClass):
         print("Calin's chages4")
         print("Calin's chages5")
         print("Calin's chages6")
+        print("Calin's chages7")
+        print("Calin's chages8")
+        print("Calin's chages9")
+
 
     @pytest.fixture(params=TestData.test_data)
     def data_load(self, request):
