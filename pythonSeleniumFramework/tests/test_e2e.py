@@ -34,19 +34,7 @@ class TestE2E(BaseClass):
         trade.get_notification().click()
         trade.get_order_confirmation()
         sleep(2)
-        login.get_logout_button().click()
-        print("Calin's chages1")
-        print("Calin's chages2")
-        print("Calin's chages3")
-        print("Calin's chages4")
-        print("Calin's chages5")
-        print("Calin's chages6")
-        print("Calin's chages7")
-        print("Calin's chages8")
-        print("Calin's chages9")
-        print("Calin's chages10")
-        print("Calin's chages11")
-        print("Calin's chages12")
+   
 
 
     @pytest.fixture(params=TestData.test_data)
